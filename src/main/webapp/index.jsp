@@ -1,31 +1,52 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login</title>
+    <title>Student Learning Portal</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h2>Login Page For External Exam and Not changed</h2>
+<header>
+    <h1>Student Learning Portal</h1>
+    <p>Learn. Practice. Grow.</p>
+</header>
 
-<form method="post">
-    Username: <input type="text" name="username" required><br><br>
-    Password: <input type="password" name="password" required><br><br>
-    <input type="submit" value="Login">
-</form>
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">Assignments</a>
+    <a href="#">Contact</a>
+</nav>
 
-<%
-    String user = request.getParameter("username");
-    String pass = request.getParameter("password");
+<div class="container">
 
-    if(user != null && pass != null){
-        if(user.equals("admin") && pass.equals("1234")){
-            response.sendRedirect(request.getContextPath() + "/success.jsp"); // 👉 go to another page
-        } else {
-            out.println("<h3 style='color:red;'>Login Failed</h3>");
-        }
-    }
-%>
+    <h2>Welcome Students</h2>
+
+    <p>
+        Welcome to the Student Learning Portal. Here you can explore courses,
+        complete assignments, and improve your skills.
+    </p>
+
+    <h3>Available Courses</h3>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+    </ul>
+
+    <button onclick="showMessage()">
+        Start Learning
+    </button>
+
+</div>
+
+<footer>
+    © 2026 Student Learning Portal
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
