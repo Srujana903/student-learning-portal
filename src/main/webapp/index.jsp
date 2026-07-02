@@ -20,7 +20,7 @@
 
 <div class="container">
 
-    <h2>Welcome Students</h2>
+    <h2>Welcome to Students learning portal</h2>
 
     <p>
         Welcome to the Student Learning Portal. Here you can explore courses,
