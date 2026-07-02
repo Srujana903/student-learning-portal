@@ -1,15 +1,32 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Failed</title>
+    <title>Login Failed</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h2 style="color:red;">Login Failed</h2>
-<h3>Invalid Username or Password</h3>
+<header>
+    <h1>Student Learning Portal</h1>
+</header>
 
-<a href="login.jsp">Try Again</a>
+<div class="container">
+
+    <h2>Login Failed</h2>
+
+    <p>Invalid username or password.</p>
+
+    <p>Please try again.</p>
+
+    <a href="index.jsp">
+        <button>Go Back</button>
+    </a>
+
+</div>
+
+<footer>
+    © 2026 Student Learning Portal
+</footer>
 
 </body>
 </html>
