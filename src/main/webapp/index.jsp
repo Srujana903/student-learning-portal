@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h2>Login Page</h2>
+<h2>Login Page For External Exam</h2>
 
 <form method="post">
     Username: <input type="text" name="username" required><br><br>
