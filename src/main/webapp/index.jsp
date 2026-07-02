@@ -43,7 +43,8 @@
 </div>
 
 <footer>
-    © 2026 Student Learning Portal
+    TUNGAPALLI SRUJANA
+    STUDENT LEARNING PORTAL
 </footer>
 
 <script src="script.js"></script>
