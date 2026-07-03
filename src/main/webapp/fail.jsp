@@ -25,7 +25,8 @@
 </div>
 
 <footer>
-    © 2026 Student Learning Portal
+    TUNGAPALLI SRUJANA
+    24951A12B3
 </footer>
 
 </body>
