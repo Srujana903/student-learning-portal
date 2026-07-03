@@ -26,7 +26,7 @@
 
 <footer>
     TUNGAPALLI SRUJANA
-    24951A12B3
+    STUDENT LEARNING PORTAL
 </footer>
 
 </body>
